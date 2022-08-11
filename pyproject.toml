@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "algo-trading-meetup"
+version = "0.1.0"
+description = ""
+authors = ["Nelson <nelsongriffiths@doubleriver.com>"]
+readme = "README.md"
+packages = [{include = "algo_trading_meetup"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pandas = "^1.3.5"
+scikit-learn = "^1.1.2"
+plotly = "^5.9.0"
+numpy = "^1.23.1"
+pymc = "^4.1.4"
+pyro-ppl = "^1.8.1"
+alpaca-py = "^0.5.1"
+jupyter = "^1.0.0"
+python-dotenv = "^0.19.2"
+Pygments = "^2.12.0"
+ipython = "^8.4.0"
+ipykernel = "^6.15.1"
+seaborn = "^0.11.2"
+prophet = "^1.1"
+matplotlib = "^3.5.2"
+pybind11 = "^2.10.0"
+finta = "^1.3"
+QuantStats = "^0.0.59"
+joblib = "^1.1.0"
+prefect = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
